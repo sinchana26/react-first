@@ -1,0 +1,16 @@
+import React, { Component } from 'react'
+
+export default class Navi extends Component {
+  render() {
+    return (
+      <div style={{height:"50px",
+        width:"100%",backgroundColor:"red",textAlign:"center",
+        padding:"5px",display:"flex",justifyContent:"center",alignItems:"center",
+        boxShadow:"0px 0px 10px lightgray",margin:"10px"
+    }}>
+      <h1>Navigation Component</h1>
+        
+      </div>
+    )
+  }
+}

@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import Auth from './Module7.1/Auth'
+import Profiledashboard from './Module7.1/Profiledashboard'
 
 
 
-import Userlist from './Module7/Userlist'
+
 
 
 
@@ -21,9 +23,10 @@ function App() {
    <Parent1/> */}
    
  {/* <Example5 condition={true}/> */}
+ <Auth/>
+<Profiledashboard/>
 
 
-<Userlist/>
 
 
 

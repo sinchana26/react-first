@@ -1,6 +1,19 @@
 import React, { useState } from 'react'
-import Auth from './Module7.1/Auth'
-import Profiledashboard from './Module7.1/Profiledashboard'
+import Component1 from './Usecontext/Component1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -23,9 +36,8 @@ function App() {
    <Parent1/> */}
    
  {/* <Example5 condition={true}/> */}
- <Auth/>
-<Profiledashboard/>
 
+<Component1/>
 
 
 
